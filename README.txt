@@ -1,1 +1,1 @@
-Criando um site para a Autoescola Motocar para fins de prática com HTML e CSS
+Criando um site para a Autoescola Motocar para prática em HTML e CSS

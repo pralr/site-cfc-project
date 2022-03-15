@@ -17,14 +17,14 @@ body {
 	margin:auto;
 }
 
-.innerLeft {
+.innerRight {
 	margin:auto;
 	height:80px;
 	float:right;
 	background-color:#f1dc3d;
 }
 
-.innerLeft > img {
+.innerRight > img {
 	width:120px;
 	height:75px;
 }
@@ -50,10 +50,10 @@ body {
 	color:black;
 }
 
-.topMenuRight {
+.topMenuLeft {
 	max-width:1080px;
 }
 
-.topMenuRight > ul > li:hover {
+.topMenuLeft > ul > li:hover {
 	background-color:#f1dc3d;
 }
