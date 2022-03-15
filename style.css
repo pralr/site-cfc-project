@@ -32,7 +32,8 @@ body {
 .topMenu {
 	height:50px;
 	background-color:white;
-	box-shadow: 4px 4px 8px black;
+	box-shadow: 4px 4px 6px black;
+	background-color:black;
 }
 
 .topMenu ul {
@@ -43,12 +44,14 @@ body {
 	padding:15px;
 	list-style:none;
 	float:left;
+	background-color:black;
 }
 
 .topMenu ul > li > a {
 	text-decoration: none;
-	color:black;
+	color:white;
 }
+
 
 .topMenuLeft {
 	max-width:1080px;
@@ -56,4 +59,36 @@ body {
 
 .topMenuLeft > ul > li:hover {
 	background-color:#f1dc3d;
+}
+
+.apresentation {
+	height:300px;
+	background-color:white;
+	color:white;
+}
+
+.innerApresentation {
+	height:300px;
+	max-width:1080px;
+	background-color:white;
+	margin:auto;
+}
+
+.innerApresentation > img {
+	height:300px;
+	width:250px;
+}
+
+.innerApresentationText {
+	font-family:'Cambria';
+	text-shadow:3px 3px 2px black;
+	color:#f1dc3d;
+	font-size:25px;
+	float:right;
+}
+
+.innerApresentationParagraph {
+	font-size:17px;
+	color:black;
+	text-shadow:none;
 }
