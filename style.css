@@ -80,10 +80,10 @@ body {
 }
 
 .innerApresentationText {
-	font-family:'Cambria';
 	text-shadow:3px 3px 2px black;
 	color:#f1dc3d;
 	font-size:25px;
+	font-family:'Cambria';
 	float:right;
 }
 
@@ -91,4 +91,41 @@ body {
 	font-size:17px;
 	color:black;
 	text-shadow:none;
+}
+
+.apresentation2 {
+	background-color:white;
+	height:400px;
+}
+
+.innerApresentation2 {
+	position: relative;
+	max-width:1080px;
+	height:400px;
+	margin:auto;
+}
+
+.innerApresentationRight {
+	max-width:540px;
+	height:400px;
+}
+
+.innerApresentationRight > h1 {
+	color:blue;
+	font-family:'Cambria';
+	font-size:50px;
+	text-shadow:1px 1px 1px solid;
+}
+
+.innerApresentationLeft {
+	max-width:540px;
+	height:400px;
+	position:relative;
+	left:540px;
+	bottom:400px;
+}
+
+.innerApresentationLeft > img {
+	width:400px;
+	height:400px;
 }
